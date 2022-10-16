@@ -1,25 +1,87 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200;700 & display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
+
 }
 header{
     height: 100px;
-    background-color: blue;
+}
+h1{
+    text-align: center;
+    padding: 60px;
 }
 aside{
-    background-color: red;
-    height: 800px;
-    width: 1150px;
-    margin-top: -400px;
+    height: 900px;
+    width: 1149px;
+    margin-top: -900px;
     margin-left: 200px;
 }
 section{
-    background-color: yellow;
-    height: 400px;
+    height: 900px;
     width: 200px;
     overflow-y: auto;
 }
-.titulo{
-    text-align: center;
-    padding-top: 35px;
+.foto1{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
+}
+.foto1:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+.foto2:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+.foto3:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+.foto4:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+.foto5:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+.foto2{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
+}
+.foto3{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
+}
+.foto4{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
+}
+.foto5{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
 }
