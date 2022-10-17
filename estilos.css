@@ -8,6 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+main{
+    height: 900px;
+    width: 1300px;
+    overflow: hidden;
+}
 header{
     height: 100px;
 }
@@ -47,7 +52,7 @@ button:hover{
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;}
 aside{
-    height: 700px;
+    height: 100%;
     width: 600px;
     margin-top: -900px;
     margin-left: 200px;
